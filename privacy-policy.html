@@ -21,16 +21,12 @@
       line-height: 1.25;
       margin: 0 0 12px;
     }
-    h1 {
-      font-size: 2rem;
-    }
+    h1 { font-size: 2rem; }
     h2 {
       margin-top: 28px;
       font-size: 1.2rem;
     }
-    p, li {
-      font-size: 1rem;
-    }
+    p, li { font-size: 1rem; }
     .meta {
       color: #444;
       margin-bottom: 20px;
@@ -45,15 +41,13 @@
       color: #0067d8;
       text-decoration: none;
     }
-    a:hover {
-      text-decoration: underline;
-    }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <main>
     <h1>No Smoke Today Privacy Policy</h1>
-    <p class="meta"><strong>Effective date:</strong> February 13, 2026</p>
+    <p class="meta"><strong>Effective date:</strong> February 24, 2026</p>
 
     <div class="card">
       <p>
@@ -66,6 +60,8 @@
     <ul>
       <li><strong>App usage and events</strong> through Firebase Analytics (for example, screen views and interaction events).</li>
       <li><strong>Crash diagnostics</strong> through Firebase Crashlytics (for example, crash logs, stack traces, device model, OS version, and app version/build).</li>
+      <li><strong>Roadmap voting data</strong> through Firebase services (for example, feature ID, vote/unvote action, vote count, and timestamps).</li>
+      <li><strong>Anonymous identifier</strong> through Firebase Authentication (anonymous sign-in) used to prevent duplicate votes per user.</li>
       <li><strong>Local progress data</strong> (such as smoking counters and goals) stored on your device for app functionality.</li>
     </ul>
 
@@ -74,22 +70,29 @@
       <li>To keep the app stable and fix bugs.</li>
       <li>To understand feature usage and improve the product.</li>
       <li>To measure app quality and reliability.</li>
+      <li>To provide shared roadmap voting and show global vote totals.</li>
     </ul>
 
     <h2>Third-Party Services</h2>
     <p>
-      We use Google Firebase services:
+      We use Google Firebase services (Analytics, Crashlytics, Authentication, and Firestore):
       <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy and Security</a>.
     </p>
 
     <h2>Data Sharing</h2>
     <p>
-      We do not sell your personal data. Data is processed by service providers only to operate analytics and crash reporting.
+      We do not sell your personal data. Data is processed by service providers only to operate analytics, crash reporting, and roadmap voting.
     </p>
 
     <h2>Data Retention</h2>
     <p>
       Analytics and crash data retention is managed in Firebase settings and retained only as long as needed for product and reliability analysis.
+      Roadmap voting records are retained while the voting feature is active or as required for product operations.
+    </p>
+
+    <h2>International Data Transfers</h2>
+    <p>
+      Firebase may process data on servers in countries other than your own.
     </p>
 
     <h2>Your Choices</h2>
@@ -107,6 +110,11 @@
     <h2>Changes to This Policy</h2>
     <p>
       We may update this policy from time to time. We will update the effective date on this page.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      If you have privacy questions, contact us at: <a href="mailto:your-support-email@example.com">your-support-email@example.com</a>
     </p>
   </main>
 </body>
